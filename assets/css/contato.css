@@ -1,0 +1,28 @@
+footer section a{
+    margin: 5rem;
+    text-align: center;
+}
+
+#contato i{
+    font-size: 5rem;
+}
+#contato div{
+    display: flex;
+    justify-content: center;
+}
+
+#github-icon{
+    color: #ffffff;
+    opacity: 1;
+}
+#linkedin-icon{
+    color: #007BB6;
+    opacity: 1;
+}
+
+.icon{
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.icon:hover{
+    transform: rotate(360deg);
+}

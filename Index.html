@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio para exposição de projetos e contato.">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Portfólio | Lucas Matheus de Camargo</title>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Estilo Geral -->
+    <link rel="stylesheet" href="assets/css/index_style.css">
+    <!-- Barra de Navegação -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <!-- Inicio  -->
+    <link rel="stylesheet" href="assets/css/inicio.css">
+    <!-- Projetos -->
+    <link rel="stylesheet" href="assets/css/projetos.css">
+    <!-- Contatos -->
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <!-- Keyframes -->
+    <link rel="stylesheet" href="assets/css/keyframes.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-mobile">
+                <div class='line1'></div>
+                <div class='line2'></div>
+                <div class='line3'></div>
+            </div>
+            <ul class='lista-nav'>
+                <a href="#inicio" class="link">
+                    <li>Início</a>
+                <a href="#projetos" class="link">
+                    <li>Projetos</a>
+                <a href="#contato" class="link">
+                    <li>Contato</a>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <div id="inicio-titulo">
+                <h1>Olá. Eu sou o<br><span id="inicio-titulo-nome">LUCAS</span></h1>
+                <div id="inicio-case-sobre">
+                    <p id="inicio-sobre">Meu nome é <strong>Lucas Matheus de Camargo</strong> e eu adoro programar. Tive meu primeiro contato com a programação em 2019 e desde então tenho me interessado muito pela área de tecnologia. Já programei em <strong>Javascript e Python</strong> e também desenvolvi em <strong>HTML e CSS</strong>.</p>
+                </div>
+            </div>
+
+            <div id="inicio-case-foto-botao">
+                <picture id="inicio-case-foto" title="Copiar"
+                onmouseover="mouseover()"
+                onmouseout="mouseout()"
+                onclick="mouseclick()">
+                    <textarea id="inicio-texto-foto" readonly>decamargoluk@gmail.com</textarea>
+                    <img src="images/foto-perfil.png" alt="foto de perfil" id="inicio-foto">
+                </picture>
+                <button id="inicio-botao" title="Copiar"
+                onmouseover="mouseover()"
+                onmouseout="mouseout()"
+                onclick="mouseclick()">E-MAIL</button>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>PROJETOS</h2>
+            <ul>
+
+                <li>
+                    <a href="https://sa-salvandoanimais.vercel.app" target="_blank">
+                        <img src="images/ONG-SA.png" alt="Site da ONG SA" class="projetos-images">
+                    </a>
+                        <h3>ONG SA- Salvando Animais</h3>
+                    <p>Site desenvolvido para um trabalho de escola sobre ONGs de animais abandonados.</p>
+                    <div>
+                        <h4>Tecnologias utilizadas: </h4>
+                        <abbr title="Hiper Text Marckup Language">
+                            <img src="images/html.png" alt="" class="icons">
+                        </abbr>
+                        <abbr title="Cascating Style Sheets">
+                            <img src="images/css-3.png" alt="" class="icons">
+                        </abbr>
+                        <abbr title="JavaScript">
+                            <img src="images/js.png" alt="" class="icons">
+                        </abbr>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="https://exposicao-de-consoles.vercel.app/Index.html" target="_blank">
+                        <img src="images/exposicao-consoles.png" alt="" class="projetos-images">
+                    </a>
+                        <h3>Exposição de Consoles</h3>
+                    <p>Site que expõe os principais consoles de diferentes épocas e empresas.</p>
+                    <div>
+                        <h4>Tecnologias utilizadas:</h4>
+                        <abbr title="Hiper Text Marckup Language">
+                            <img src="images/html.png" alt="" class="icons">
+                        </abbr>
+                        <abbr title="Cascating Style Sheets">
+                            <img src="images/css-3.png" alt="" class="icons">
+                        </abbr>
+                        <abbr title="JavaScript">
+                            <img src="images/js.png" alt="" class="icons">
+                        </abbr>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="images/em-breve.jpg" alt="" class="projetos-images">
+                    </a>
+                        <h3>Em breve...</h3>
+                    <p>Projeto em desenvolvimento...</p>
+                </li>
+
+                <li>
+                    <a href="#" class="projetos-case-images">
+                        <img src="images/em-breve.jpg" alt="" class="projetos-images">
+                    </a>
+                        <h3>Em breve...</h3>
+                    <p>Projeto em desenvolvimento...</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <div>
+                <a href="https://github.com/DarkMatter015" target="_blank">
+                    <i class="fa-brands fa-github-square icon" id="github-icon"></i>
+                    <h3 class="link">GitHub</h3>
+                </a>
+                <a href="https://www.linkedin.com/in/lucas-matheus-de-camargo-49a315236" target="_blank">
+                    <i class="fa-brands fa-linkedin icon" id="linkedin-icon"></i>
+                    <h3 class="link">Linkedin</h3>
+                </a>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Ícones -->
+<script src="https://kit.fontawesome.com/ba935639dd.js" crossorigin="anonymous"></script>
+    <!-- Biblioteca ScrollReveal -->
+<script src="assets/javascript/scroll.js"></script>
+    <!-- Animações -->
+<script src="assets/javascript/animations.js"></script>
+</body>
+</html>
