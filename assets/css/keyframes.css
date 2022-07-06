@@ -54,8 +54,8 @@
 }
 
 @media (max-width:35rem) {
-    .lista-nav li{
-        font-size: 0.8rem;
+    .link{
+        font-size: 1rem;
     }
 
     #inicio-case-foto{
@@ -67,11 +67,10 @@
         padding: 0.4em;
     }
     #inicio h1{
-        /* margin-top: 50%; */
         font-size: 2.5rem;
     }
     #inicio-sobre{
-        margin: 5em 0.2em 1em 0.2em;
+        margin: 5em 1em 1em 1em;
     }
     #inicio-texto-foto{
         font-size: 0.7rem;
@@ -106,9 +105,6 @@
         justify-content: space-evenly;
         align-items: center;
     }
-    .lista-nav li{
-        font-size: 0.6rem;
-    }
     #inicio-case-foto{
         height: 12em;
         width: 12em;
@@ -124,7 +120,7 @@
         font-size: 1.5rem;
     }
     #inicio-sobre{
-        margin: 5em 0.1em 1em 0.1em;
+        margin: 7em 1em 1em 1em;
     }
     p{
         font-size: 0.6rem;
