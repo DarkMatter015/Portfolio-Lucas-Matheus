@@ -19,8 +19,10 @@ Foram usadas As seguintes ferramentas na construção do projeto:
 
 ### Autor
 
-<a href="">
+<a href="https://github.com/DarkMatter015">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/82187724?v=4" width="250px;" alt="foto de perfil"/>
  <br/>
  <sub><b>Lucas Matheus</b></sub>
 </a> 
+
+[Linkedin Badge](https://img.shields.io/badge/-Lucas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-matheus-de-camargo-49a315236)](https://www.linkedin.com/in/lucas-matheus-de-camargo-49a315236)
