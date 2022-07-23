@@ -17,16 +17,17 @@ Foram usadas As seguintes ferramentas na construção do projeto:
 - [HTML5]
 - [CSS3]
 - [JavaScript](https://www.javascript.com/)
+- [Ícones](https://fontawesome.com/)
 - [Biblioteca ScrollReveal JS](https://scrollrevealjs.org/)
 
 # Autor
 
-<a href="https://github.com/DarkMatter015">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/82187724?v=4" width="250px" alt="foto de perfil"/>
+<a href="https://github.com/DarkMatter015" align="center">
+ <img src="https://avatars.githubusercontent.com/u/82187724?v=4" width="250px" alt="foto de perfil"/>
  <br/>
  <sub><b>Lucas Matheus</b></sub>
 </a> 
 
 <a href="https://www.linkedin.com/in/lucas-matheus-de-camargo-49a315236">
-    <img src="https://img.shields.io/badge/-Lucas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-matheus-de-camargo-49a315236" width="50px">
+    <img src="images/linkedin_icon.png" width="50px">
 </a>
