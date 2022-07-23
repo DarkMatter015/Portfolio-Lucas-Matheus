@@ -5,6 +5,14 @@ const botao= document.querySelector('#inicio-botao')
 const foto= document.querySelector('#inicio-foto')
 const texto= document.querySelector('#inicio-texto-foto')
 
+case_foto.addEventListener('mouseover', mouseover)
+case_foto.addEventListener('click', mouseclick)
+case_foto.addEventListener('mouseout', mouseout)
+
+botao.addEventListener('mouseover', mouseover)
+botao.addEventListener('click', mouseclick)
+botao.addEventListener('mouseout', mouseout)
+
 function mouseover(){
     foto.style.opacity= 0.5;
     texto.style.opacity= 1;
