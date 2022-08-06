@@ -27,6 +27,7 @@ Foram usadas As seguintes ferramentas na construção do projeto:
  <br/>
  <sub><b>Lucas Matheus</b></sub>
 </a> 
+
 <br/>
 <a href="https://www.linkedin.com/in/lucas-matheus-de-camargo-49a315236">
     <img src="images/linkedin_icon.png">
