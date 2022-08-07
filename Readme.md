@@ -1,4 +1,4 @@
-<img src="images/Banner.png">
+<a href="https://portfolio-lucas-matheus.vercel.app/"><img src="images/Banner.png"></a>
 
 <h1 align="center"> 
     <a href="https://portfolio-lucas-matheus.vercel.app/">Currículo 👾</a>
